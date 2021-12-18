@@ -9,6 +9,7 @@ public class Main {
             - nazwisko (String),
             - indeks (Integer)
 
+
             b) stworzyc konstruktory, gettery i settery
             c) napisać metodę w klasie Osoba która zwróci informację o osobie,
          */
@@ -28,5 +29,44 @@ public class Main {
             c) przeiterować listę za pomocą pętli forEach wywołując na każdym objekcie metodę toString() (w każdej iteracji);
          */
 
+        class Osoba {
+        private String imie;
+        private String nazwisko;
+        private Integer indeks;
+
+            public Osoba(String imie, String nazwisko, Integer indeks) {
+                this.imie = imie;
+                this.nazwisko = nazwisko;
+                this.indeks = indeks;
+            }
+
+            public String getImie() {
+                return imie;
+            }
+
+            public String getNazwisko() {
+                return nazwisko;
+            }
+
+            public Integer getIndeks() {
+                return indeks;
+            }
+
+            public void setImie(String imie) {
+                this.imie = imie;
+            }
+
+            public void setNazwisko(String nazwisko) {
+                this.nazwisko = nazwisko;
+            }
+
+            public void setIndeks(Integer indeks) {
+                this.indeks = indeks;
+            }
+
+            public void informacje(){
+                return ("Imie");
+            }
+        }
     }
 }
