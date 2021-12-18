@@ -64,5 +64,15 @@ public class Punkt {
         d) nadpisać metodę toString(), aby zwracała wszystkie wartości pól, analogicznie jak w przykładzie
      */
 
+     public int Suma(){
+        return  pX + pY + pZ;
+    }
+    public int Roznica(){
+        return  pX + pY + pZ;
+    }
+    public roznica(int x,int y,int z){
+        return ((pX * x) - (pY * y) - (pZ * z));
+    }
+
 
 }
