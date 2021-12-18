@@ -4,6 +4,7 @@ public class Student {
         int wiek;
         boolean czyAktywny;
 
+
 }
 
 

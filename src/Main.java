@@ -15,6 +15,25 @@ public class Main {
             d) dane powinny być estetycznie przedstawione
          */
 
+
+        Student student1 = new Student();
+        student1.imie = "adam";
+        student1.nazwisko = "jeden";
+        student1.wiek = 22;
+        student1.czyAktywny = true;
+
+        Student student2 = new Student();
+        student2.imie = "adam";
+        student2.nazwisko = "jeden";
+        student2.wiek = 22;
+        student2.czyAktywny = true;
+
+        Student student3 = new Student();
+        student3.imie = "adam";
+        student3.nazwisko = "jeden";
+        student3.wiek = 22;
+        student3.czyAktywny = true;
+
     }
 
 
