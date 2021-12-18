@@ -3,4 +3,8 @@ public class Student {
         String nazwisko;
         int wiek;
         boolean czyAktywny;
+
 }
+
+
+
