@@ -16,17 +16,45 @@ public class Punkt {
         podpowiedz ALT + INSERT można wybrać generowanie automatyczne
         konstruktora, getterów, setterów, nadpisywanie metody toString() i inne ...
     */
-    konstruktora(){
 
+    public Punkt() {
     }
-    konstruktorb(int pX){
-    this.pX = pX;
+
+    public Punkt(int pX) {
+        this.pX = pX;
     }
-    konstruktorc(int pX,int pY,int pZ){
-   this.pX = pX;
-   this.pY = pY;
-   this.pZ = pZ;
+
+    public Punkt(int pX, int pY, int pZ) {
+        this.pX = pX;
+        this.pY = pY;
+        this.pZ = pZ;
     }
+
+    public void setpX(int pX) {
+        this.pX = pX;
+    }
+
+    public void setpY(int pY) {
+        this.pY = pY;
+    }
+
+    public void setpZ(int pZ) {
+        this.pZ = pZ;
+    }
+
+    public int getpX() {
+        return pX;
+    }
+
+    public int getpY() {
+        return pY;
+    }
+
+    public int getpZ() {
+        return pZ * 10;
+    }
+
+
 
     /* Stworzyć metody
         a) suma - sumująca wszystkie wartości w klasie
@@ -35,4 +63,6 @@ public class Punkt {
             roznica(){ return pX - pY - pZ} i roznica(int x, int y, int z){ return pX*x - pY*y - pZ*z }
         d) nadpisać metodę toString(), aby zwracała wszystkie wartości pól, analogicznie jak w przykładzie
      */
+
+
 }
