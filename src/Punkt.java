@@ -70,9 +70,15 @@ public class Punkt {
     public int Roznica(){
         return  pX + pY + pZ;
     }
-    public roznica(int x,int y,int z){
-        return ((pX * x) - (pY * y) - (pZ * z));
-    }
+    //public roznica(int x,int y,int z){return ((pX * x) - (pY * y) - (pZ * z));}
 
+    @Override
+    public String toString() {
+        return "Punkt{" +
+                "x=" + pX +
+                ", y=" + pY +
+                ", z=" + pZ +
+                '}';
+    }
 
 }
