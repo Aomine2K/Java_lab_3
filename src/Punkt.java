@@ -2,6 +2,10 @@
 public class Punkt {
     /* stworzyć zmienne prywatne pX, pY, pZ */
 
+    private int pX;
+    private int pY;
+    private int pZ;
+
     /* stworzyć
         a) pusty konstruktor,
         b) konstruktor inicjalizujacy zmienną pX,
@@ -12,6 +16,17 @@ public class Punkt {
         podpowiedz ALT + INSERT można wybrać generowanie automatyczne
         konstruktora, getterów, setterów, nadpisywanie metody toString() i inne ...
     */
+    konstruktora(){
+
+    }
+    konstruktorb(int pX){
+    this.pX = pX;
+    }
+    konstruktorc(int pX,int pY,int pZ){
+   this.pX = pX;
+   this.pY = pY;
+   this.pZ = pZ;
+    }
 
     /* Stworzyć metody
         a) suma - sumująca wszystkie wartości w klasie
