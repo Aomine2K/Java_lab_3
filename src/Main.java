@@ -30,9 +30,9 @@ public class Main {
          */
 
         class Osoba {
-        private String imie;
-        private String nazwisko;
-        private Integer indeks;
+            private String imie;
+            private String nazwisko;
+            private Integer indeks;
 
             public Osoba(String imie, String nazwisko, Integer indeks) {
                 this.imie = imie;
@@ -64,8 +64,13 @@ public class Main {
                 this.indeks = indeks;
             }
 
-            public String informacje(){
-                return imie;
+            @Override
+            public String toString() {
+                return "" +
+                        "imie=" + imie +
+                        ", nazwisko=" + nazwisko +
+                        ", index=" + indeks +
+                        '}';
             }
         }
     }
