@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 public class Main {
 
     public static void main(String[] args) {
@@ -34,5 +35,13 @@ public class Main {
         Student student2 = new Student(Adam, Wydzial.WydzialEnum.Fizyka);
 
 
+        ArrayList<Student> listaStudentow = new ArrayList<Student>();
+        listaStudentow.add(student1);
+        listaStudentow.add(student2);
+
+
+        for (Student i : listaStudentow) {
+            System.out.println(i.toString());
+        }
     }
 }

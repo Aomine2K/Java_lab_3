@@ -8,18 +8,26 @@ public class Student {
             c) stworzyc konstruktory, gettery i settery
             d) nadpisać metodę toString aby zwracała wszystkie elementy ładnie przedstawione :)
          */
-    Osoba osoba;
-    Wydzial.WydzialEnum wydzial;
+
 
     private String imie;
     private String nazwisko;
     private Integer indeks;
+
+    Osoba osoba;
+    Wydzial.WydzialEnum wydzial;
+
+    public Student() {
+        this.osoba = new Osoba();
+    }
 
     public Student(String imie, String nazwisko, Integer indeks) {
         this.imie = imie;
         this.nazwisko = nazwisko;
         this.indeks = indeks;
     }
+
+
 
     public Student(Osoba osoba, Wydzial.WydzialEnum wydz) {
         this.osoba = osoba;
