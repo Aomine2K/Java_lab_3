@@ -11,6 +11,14 @@ public class Student {
          this.wiek = wiek;
          this.czyAktywny = czyAktywny;
         }
+
+
+        public void pokazListe(){
+
+            System.out.print("Imie:"+ imie + " " + "Nazwisko:" + nazwisko+"  "
+                    + " Wiek:"+wiek+ "" + " Obecny:"+ czyAktywny);
+            System.out.println();
+        }
 }
 
 

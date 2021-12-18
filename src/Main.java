@@ -14,10 +14,6 @@ public class Main {
             c) wyświetlić dane z tablicy, użyć pętli for lub forEach
             d) dane powinny być estetycznie przedstawione
          */
-
-
-
-
         Student[] tablica;
 
         tablica = new Student[3];
@@ -28,7 +24,16 @@ public class Main {
 
         tablica[2] = new Student("Marek","Polak",26,false);
 
+
+        System.out.println("Aktualna lista:");
+
+        for(int i=0; i<tablica.length; i++)
+        {
+            tablica[i].pokazListe();
+        }
+
     }
+
 
 
 }
