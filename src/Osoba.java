@@ -9,6 +9,7 @@ public class Osoba {
             this.nazwisko = nazwisko;
             this.indeks = indeks;
         }
+        
 
         public String getImie() {
             return imie;
@@ -39,7 +40,7 @@ public class Osoba {
             return "" +
                     "imie=" + imie +
                     ", nazwisko=" + nazwisko +
-                    ", index=" + indeks +
+                    ", indeks=" + indeks +
                     '}';
         }
     }
