@@ -21,6 +21,11 @@ public class Student {
         this.indeks = indeks;
     }
 
+    public Student(Osoba osoba, Wydzial.WydzialEnum wydz) {
+        this.osoba = osoba;
+        this.wydzial = wydz;
+    }
+
     public String getImie() {
         return imie;
     }

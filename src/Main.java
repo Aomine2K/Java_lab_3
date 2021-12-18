@@ -28,6 +28,10 @@ public class Main {
             b) dodać studentów do Listy ArrayList,
             c) przeiterować listę za pomocą pętli forEach wywołując na każdym objekcie metodę toString() (w każdej iteracji);
          */
+        Osoba Marek = new Osoba("Marek", "Nazwisko", 1);
+        Student student1 = new Student(Marek, Wydzial.WydzialEnum.Filologia);
+        Osoba Adam = new Osoba("Adam", "Nazwisko", 2);
+        Student student2 = new Student(Adam, Wydzial.WydzialEnum.Fizyka);
 
 
     }
