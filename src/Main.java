@@ -64,8 +64,8 @@ public class Main {
                 this.indeks = indeks;
             }
 
-            public void informacje(){
-                return ("Imie");
+            public String informacje(){
+                return imie;
             }
         }
     }
