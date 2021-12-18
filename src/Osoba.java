@@ -9,7 +9,17 @@ public class Osoba {
             this.nazwisko = nazwisko;
             this.indeks = indeks;
         }
-        
+    public void setImie(String imie) {
+        this.imie = imie;
+    }
+
+    public void setNazwisko(String nazwisko) {
+        this.nazwisko = nazwisko;
+    }
+
+    public void setIndeks(Integer indeks) {
+        this.indeks = indeks;
+    }
 
         public String getImie() {
             return imie;
@@ -23,17 +33,7 @@ public class Osoba {
             return indeks;
         }
 
-        public void setImie(String imie) {
-            this.imie = imie;
-        }
 
-        public void setNazwisko(String nazwisko) {
-            this.nazwisko = nazwisko;
-        }
-
-        public void setIndeks(Integer indeks) {
-            this.indeks = indeks;
-        }
 
         @Override
         public String toString() {

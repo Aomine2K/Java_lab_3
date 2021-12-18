@@ -18,7 +18,8 @@ public class Student {
     Wydzial.WydzialEnum wydzial;
 
     public Student() {
-        this.osoba = new Osoba();
+        this.osoba = new Osoba(imie,nazwisko,indeks);
+
     }
 
     public Student(String imie, String nazwisko, Integer indeks) {
